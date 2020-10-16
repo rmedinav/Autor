@@ -1,0 +1,119 @@
+\documentclass[11pt]{beamer}
+\usepackage{listings} % Include the listings-package
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb, amsfonts, latexsym, cancel}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{hyperref}
+%\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{booktabs} % Allows the use of \toprule, 
+\usepackage{filecontents}
+\usepackage{courier} %% Sets font for listing as Courier.
+\usepackage{listings}
+%\usepackage{listings, xcolor}
+\lstset{
+tabsize = 2, %% set tab space width
+showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
+numbers = left, %% display line numbers on the left
+commentstyle = \color{green}, %% set comment color
+keywordstyle = \color{blue}, %% set keyword color
+stringstyle = \color{red}, %% set string color
+rulecolor = \color{black}, %% set frame color to avoid being affected by text color
+basicstyle = \small \ttfamily , %% set listing font and size
+breaklines = true, %% enable line breaking
+numberstyle = \tiny,
+}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\definecolor{urlColor}{rgb}{0.06, 0.3, 0.57}
+\definecolor{linkColor}{rgb}{0.57, 0.0, 0.04}
+\definecolor{fileColor}{rgb}{0.0, 0.26, 0.26}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkColor,
+    filecolor=fileColor,      
+    urlcolor=urlColor,
+}
+\urlstyle{same}
+\setbeamercovered{transparent}
+%\usetheme{Boadilla}
+\usetheme{CambridgeUS}
+%\usetheme{Berkeley}
+%\usetheme{Warsaw}
+%\usetheme{Madrid}
+
+\title[Presentación]{\bf\Huge Sanjay J. Koyani}
+\subtitle{Research-based Web Design & Usability Guidelines}
+
+\author[Raith Medina V.]
+{
+\inst{1}%
+	Raith Josemar Medina Villegas\\ 
+}
+\institute[UNSA]
+{
+\inst{1}% 
+System Engineering School\\
+System Engineering and Informatic Department\\
+Production and Services Faculty\\
+San Agustin National University of Arequipa\\
+}
+
+\date[2020-09-30]{\scriptsize{Setiembre - 2020}}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Contenido}
+\tableofcontents
+\end{frame}
+%__________________________Introduccion___________________________
+\section{Introduccion }
+\begin{frame}
+\frametitle{Introduccion - Sanjay Koyani }
+\begin{itemize}
+\item Líder ejecutivo de la iniciativa ReImagine HHS Data Insights en el Departamento de Salud y Servicios Humanos de EE. UU. (HHS)
+\end{itemize}
+\end{frame}
+%_________________________________________________________________
+%_________________________Aporte___________________________
+\section{Aporte}
+\begin{frame}{Aportes}
+Sanjay Koyani, realiza algunos lineamientos en conjunto con el equipo de trabajo, podemos destacar algunos como:
+-No mostrar ventanas o gráficos no solicitados.\\
+-Formularios que utilicen la tecnología de asistencia\\
+-No usar el mismo color para transmitir información\\
+-Crear una primra impresión positiva de su sitio\\
+-Eliminar desplazamiento horizontal\\
+-Organizar la información con claridad
+\end{frame}
+
+
+%-----------------------Conclusiones-------------------------
+%\diapositiva 1
+\section{Conclusiones}
+\begin{frame}
+\frametitle{Conclusiones}
+Dentro de los patrones de diseño que aporto Sanjay Koyani, se puede resaltar que lo predominante es el orden, la información clara y la armonia entre los elementos existentes en las páginas.
+\end{frame}
+
+%-------------------------Textos---------------------------
+\section{Referencias}
+\begin{frame}
+\frametitle{Referencias}
+\begin{itemize}
+\item https://commons.erau.edu/publication/1028/
+\end{itemize}
+\end{frame}
+
+\end{document}
